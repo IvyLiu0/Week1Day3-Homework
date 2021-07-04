@@ -24,26 +24,46 @@
     <body>
         <img src="images/adoption4.jpeg" alt="adoption1" width="100%">
         <br><br><br><br>
+    <form action="/signup" method="POST">
         <fieldset>
-            <legend><h2>Adoption Contact</h2></legend>
-            <form>
-                
-            </form>
+            <legend><h2>Adoption Contact</h2></legend><br>
+            <label>First Name</label><br>
+            <input type="text" name="name"><br>
+            <label>Middle Name</label><br>
+            <input type="text" name="name"><br>
+            <label>Last Name</label><br>
+            <input type="text" name="name"><br>
+            <br>
+            <label>Gender</label><br>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br><br>
+            <label>Email:</label>
+            <input type="email" name="email"><br>
+            <label>Phone:</label>
+            <input type="tel" name="phone"><br>
+            <br><br>
+            <label>Which one you perfer us to contact you first?</label><br>
+            <select>
+                <option>Email</option>
+                <option>Phone</option>
+            </select>
+            <br><br>
+            <label>Tell us what we could help you today?</label><br>
+            <textarea rows="10" cols="30">Type here......</textarea><br><br>
+            <label>We will contact you as soon as possible after you submit.</label><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
         </fieldset>
+    </form>
         <br><br><br><br>
+    <form action="application" method="POST">
         <fieldset>
-            <legend><h2>Adoption Application</h2></legend>
-            <form>
+            <legend><h2>Future Adoption Application</h2></legend>
                 
-            </form>
         </fieldset>
+    </form>
         <br><br><br><br>
-        <fieldset>
-            <legend><h2>Future Adoption</h2></legend>
-            <form>
-                
-            </form>
-        </fieldset>
     </body>
 <br><br><br><br>
     <footer><!--Start with footer-->
